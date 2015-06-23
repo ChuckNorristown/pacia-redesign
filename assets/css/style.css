@@ -341,6 +341,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Portfolio Wrap Section */
+.name {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.member-name  li:hover {
+    outline: 0;
+    background-color: #f6f6f6;
+}
+
+.li-scroll {
+    right: 94%;
+    bottom: 10px;
+    border: none;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+}
+
+.name li {
+    text-align: left;
+    border-bottom: 1px solid #000;
+    padding: 20px 0 20px 10px;
+}
+
 #portfoliowrap {
 	display: block;
 	margin-top: 80px;
@@ -350,7 +377,6 @@ h1, h2, h3, h4, h5, h6 {
 #portfoliowrap h1 {
 	font-weight: 300;
 	text-align: center;
-	margin-bottom: 50px;
 }
 .mt {
 	margin-top: 50px;
