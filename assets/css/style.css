@@ -249,15 +249,16 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/philly-arial.png) no-repeat center top;
+	background: url(../img/city-hall.png) no-repeat center top;
 	margin-top: 0px;
-	padding-top:120px;
+	padding-top: 120px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
-	min-height: 700px;
+  background-position-x: 50%;
+  background-position-y: 25%;
+  min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -271,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
 	color: #ffffff;
-	margin-top: 90px;
+	margin-top: 237px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
 	font-size: 100px;
